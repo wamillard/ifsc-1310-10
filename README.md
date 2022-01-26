@@ -6,7 +6,7 @@ I don't plan on having multiple branches, but if they end up happening, I'll det
 
 ***
 
-##Branches
+###Branches
 
 1. main- This should be the only branch, and as such, will be the production branch, where everything works.
 
