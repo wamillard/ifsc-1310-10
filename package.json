@@ -1,12 +1,25 @@
 {
   "name": "ifsc-1310-10",
   "version": "1.0.0",
-  "description": "",
+  "description": "\"Web Technologies Spring 2022\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "\"Wil Millard\"",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wamillard/ifsc-1310-10.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wamillard/ifsc-1310-10/issues"
+  },
+  "homepage": "https://github.com/wamillard/ifsc-1310-10#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
