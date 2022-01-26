@@ -1,7 +1,7 @@
 {
   "name": "ifsc-1310-10",
   "version": "1.0.0",
-  "description": "\"Web Technologies Spring 2022\"",
+  "description": "Web Technologies Spring 2022",
   "main": "index.html",
   "scripts": {
     "start": "npm run lite",
@@ -9,7 +9,7 @@
     "lite": "lite-server"
   },
   "keywords": [],
-  "author": "\"Wil Millard\"",
+  "author": "Wil Millard",
   "license": "ISC",
   "repository": {
     "type": "git",
