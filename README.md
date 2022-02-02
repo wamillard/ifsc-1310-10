@@ -6,8 +6,8 @@ This is where the semester's work will be saved, and collected.<br>
 
 ***
 
-##Branches
+### Branches
 
-1. main- This is the production branch, where everything works, and is updated to.
-2. test- This is where I'll develop, and keep my work until I know it works correctly.
+- main- This is the production branch, where everything works, and is updated to.
+- test- This is where I'll develop, and keep my work until I know it works correctly.
 
