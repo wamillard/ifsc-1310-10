@@ -1,0 +1,121 @@
+/*       Good Colors
+
+
+Blue - #0CCDE8
+light blue - #0CF2D0
+darker green - #00DB7C
+light green - #0CF24D
+green - #0CE80C
+
+
+
+*/
+
+
+/*------------------Box Sizing------------------*/
+
+html
+{
+	box-sizing : border-box;
+}
+
+*,
+*:before,
+*:after
+{
+	box-sizing : inherit;
+}
+
+/*----------------Utility Classes---------------*/
+
+
+/*---------------Responsive Images--------------*/
+
+
+/*-----------------Global Styles----------------*/
+
+body
+{
+	background-color : lightgreen;
+	font-family: 'Open Sans', sans-serif;
+	margin:0;
+	
+}
+
+header.primary
+{
+	background-color: forestgreen;
+	text-align: center;
+	color: #0CF2d0;
+/*  Long Form  */
+	padding-top:40px;
+	padding-right:40px;
+	padding-bottom:40px;
+	padding-left:40px;
+	
+/*	T,R,B,L  */
+	padding:40px 40px 40px 40px;
+
+	/*  Top/Bottom  Right/Left  */
+	padding:40px 0px;
+	
+	text-shadow:2px 2px 5px #777;
+	
+}
+
+header.primary h1
+{
+	font-size:2.6rem;
+	margin:20px 0;
+	
+}
+
+header.primary h1 a
+{
+	color:#fff;
+	text-decoration: none;  /*   takes away the line under the link  */
+	text-shadow: none;
+}
+
+header.primary h2
+{
+	font-size:1.4rem;
+	/*  Top |  Left/Right | Bottom */
+	margin:20px auto 40px;
+}
+
+header.primary nav
+{
+
+
+}
+
+header.primary nav ul
+{
+	padding:0px;
+
+}
+
+header.primary nav ul li
+{
+	list-style-type: none;
+
+	
+}
+
+header.primary nav ul li a
+{
+	color: azure;
+	text-decoration: none;
+	text-shadow: none;
+	padding: 1rem 16px;
+	/*margin: 1.5rem;*/
+	background-color: #000000;
+	display: inline-block;
+}
+
+/*--------------Attribute Selectors-------------*/
+
+
+/*------------------Media Query-----------------*/
+

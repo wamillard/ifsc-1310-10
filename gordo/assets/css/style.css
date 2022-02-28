@@ -1,0 +1,28 @@
+/*------------------Box Sizing------------------*/
+
+html
+{
+	box-sizing : border-box;
+}
+
+*,
+*:before,
+*:after
+{
+	box-sizing : inherit;
+}
+
+/*----------------Utility Classes---------------*/
+
+
+/*---------------Responsive Images--------------*/
+
+
+/*-----------------Global Styles----------------*/
+
+
+/*--------------Attribute Selectors-------------*/
+
+
+/*------------------Media Query-----------------*/
+
