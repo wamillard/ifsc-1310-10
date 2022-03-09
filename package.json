@@ -1,16 +1,19 @@
 {
   "name": "ifsc-1310-10",
+  "author": "Wil Millard",
   "version": "1.0.0",
   "description": "Web Technologies Spring 2022",
   "main": "index.html",
-  "scripts": {
-    "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server"
-  },
   "keywords": [],
-  "author": "Wil Millard",
   "license": "ISC",
+  "scripts": {
+    "start": "npm run watch:all",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+    "scss": "node-sass -x -o **/assets/css **/assets/css",
+    "watch:scss": "onchange \"**/*.scss\" -- npm run scss",
+    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wamillard/ifsc-1310-10.git"
@@ -20,6 +23,9 @@
   },
   "homepage": "https://github.com/wamillard/ifsc-1310-10#readme",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.6.1",
+    "node-sass": "^7.0.1",
+    "onchange": "^3.3.0",
+    "parallelshell": "^3.0.2"
   }
 }
