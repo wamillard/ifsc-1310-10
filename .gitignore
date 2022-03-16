@@ -1,3 +1,5 @@
 node_modules
 templates/codepen-template
 styles.scss
+.idea
+*.json
