@@ -6,7 +6,7 @@
 		
 		<title>IFSC 1310 | W. Millard</title>
 		<meta name="description"
-				content="This page is dedicated to assignment Positioning Lab - Float 2"
+				content="This page is dedicated to assignment Positioning Lab - Absolute 1"
 		/>
 		<meta name="author" content="William Millard"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
@@ -42,43 +42,48 @@
 				width               : 800px;
 				margin-right        : auto;
 				margin-left         : auto;
-				padding-top         : 20px;
 			}
 			
-			
-			.box
+			#wrapper > div
 			{
-				width  : 175px;
-				height : 180px;
-				margin : 0 0 20px 20px;
-				float  : left;
+				width    : 180px;
+				height   : 180px;
+				position : absolute;
 			}
 			
 			#red
 			{
 				background-color : #900;
+				top              : 0;
+				left             : 0;
 			}
 			
 			#green
 			{
 				background-color : #090;
+				top              : 0;
+				right            : 0;
 			}
 			
 			#blue
 			{
 				background-color : #00F;
+				bottom           : 0;
+				left             : 0;
 			}
 			
 			#purple
 			{
 				background-color : #63C;
+				bottom           : 0;
+				right            : 0;
 			}
 			
 			#footer
 			{
 				background-color : #666;
-				clear            : both;
-				margin           : 20px;
+				position         : static !important;
+				margin           : 20px 310px;
 			}
 			
 			h1
@@ -91,7 +96,7 @@
 	</head>
 	
 	<body>
-		<h1>Positioning Lab - Float 2</h1>
+		<h1>Positioning Lab - Absolute 1</h1>
 		<div id="wrapper">
 			<div id="red" class="box">Red</div>
 			<div id="green" class="box">Green</div>
